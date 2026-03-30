@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kho Link của Điệp</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee, #84fab0, #8fd3f4);
+      background-size: 600% 600%;
+      animation: gradientBG 20s ease infinite;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #fff;
+    }
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+    header {
+      padding: 40px 20px;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    }
+    .link-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+      margin: 40px 0;
+    }
+    .link-container a {
+      display: inline-block;
+      padding: 18px 35px;
+      border-radius: 40px;
+      font-size: 1.2em;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+      background: linear-gradient(45deg, #ff6a00, #ee0979, #00c6ff, #0072ff);
+      background-size: 300% 300%;
+      animation: gradientButton 5s ease infinite;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    @keyframes gradientButton {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+    .link-container a:hover {
+      transform: scale(1.15);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    }
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>✨ Kho Link của Điệp ✨</h1>
+    <p>Mediafire, Drive, và nhiều hơn nữa</p>
+  </header>
+
+  <div class="link-container">
+    <a href="https://www.mediafire.com/file/xxxx" target="_blank">📂 Mediafire Link 1</a>
+    <a href="https://drive.google.com/file/d/xxxx" target="_blank">☁️ Google Drive Link 2</a>
+    <a href="https://mega.nz/file/xxxx" target="_blank">💾 Mega Link 3</a>
+    <a href="https://dropbox.com/s/xxxx" target="_blank">📦 Dropbox Link 4</a>
+  </div>
+
+  <footer>
+    © 2026 Điệp - Made with 🌈
+  </footer>
+</body>
+</html>
